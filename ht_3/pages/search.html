@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search</title>
+</head>
+
+<body>
+    <header>
+        <h1>выбор авто </h1>
+    </header>
+    <form action="https://fom.in.ua/echo">
+        <h3>тип кузова</h3>
+        <div>
+            <input type="radio" id="sedan" name="auto" value="седан">
+            <label for="sedan">седан</label><br>
+            <input type="radio" id="hb" name="auto" value="хэтчбек">
+            <label for="hb">хэтчбек</label><br>
+            <input type="radio" id="cupe" name="auto" value="купе">
+            <label for="cupe">купе</label><br>
+            <input type="radio" id="cab" name="auto" value="кабриолет">
+            <label for="cab">кабриолет</label><br>
+        </div>
+        <hr>
+        <div>
+            <label for="carbrand">марка авто:</label>
+            <input type="search" id="carbrand" name="carbrand" placeholder=" bmw x5"><br>
+        </div>
+        <hr>
+        <div>
+            <label for="country">cтрана производитель</label><br>
+            <input type="text" id="country" name="country"><br>
+        </div>
+        <div>
+            <label for="price">цена в грн от 0-5 000 000</label>
+            <input type="range" id="price" name="vol" min="0" max="5000000"><br>
+        </div>
+        <hr>
+        <div>
+            <label for="bdaymonth">год выпуска с:</label>
+            <input type="month" id="bdaymonth" name="car year from">
+            <label for="bdaymonth2">год выпуска по:</label>
+            <input type="month" id="bdaymonth2" name="car year to"><br>
+        </div>
+        <h3>состояние</h3>
+        <div>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="битая">
+            <label for="vehicle1"> битая</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="в кредите">
+            <label for="vehicle2"> в кредите</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="не растаможеная">
+            <label for="vehicle3"> не растаможеная</label><br>
+            <input type="checkbox" id="vehicle4" name="vehicle4" value="пригнана из сша">
+            <label for="vehicle4">пригнана из сша</label><br>
+            <input type="checkbox" id="vehicle5" name="vehicle5" value="гаражное хранение">
+            <label for="vehicle5"> гаражное хранение</label><br>
+        </div>
+        <h3>вид топлива</h3>
+        <div>
+            <input type="checkbox" id="vehicle6" name="gas1" value="бензин">
+            <label for="vehicle6"> бензин </label><br>
+            <input type="checkbox" id="vehicle7" name="gas2" value="газ">
+            <label for="vehicle7"> газ</label><br>
+            <input type="checkbox" id="vehicle8" name="gas3" value="дт">
+            <label for="vehicle8"> дт</label><br>
+        </div>
+        <h3>коробка передач</h3>
+        <div>
+            <input type="radio" id="manual" name="transm" value="механика">
+            <label for="manual">механика</label><br>
+            <input type="radio" id="aut" name="transm" value="автомат">
+            <label for="aut">автомат</label><br>
+            <input type="radio" id="rob" name="transm" value="робот">
+            <label for="rob">робот</label><br>
+            <label for="favcolor">выберите цвет авто</label>
+            <input type="color" id="favcolor" name="car_color" value="#ff0000">
+        </div>
+        <h3>комфорт</h3>
+        <div>
+            <input type="checkbox" id="vehicle9" name="vehicle9" value="люк">
+            <label for="vehicle9"> люк</label><br>
+            <input type="checkbox" id="vehicle10" name="vehicle10" value="кожаный салон">
+            <label for="vehicle10"> кожаный салон</label><br>
+            <input type="checkbox" id="vehicle11" name="vehicle11" value="climat control">
+            <label for="vehicle11"> climat control</label><br>
+            <input type="checkbox" id="vehicle12" name="vehicle12" value="cruise control">
+            <label for="vehicle12">cruise control</label><br>
+            <input type="checkbox" id="vehicle13" name="vehicle13" value="легкосплавные диски">
+            <label for="vehicle13">легкосплавные диски</label><br>
+        </div>
+        <hr>
+        <div>
+            <input type="submit" value="search">
+            <input type="reset" value="reset">
+        </div>
+    </form>
+    <footer>
+        <div>
+            <p>copyright lozovoy oleksii</p>
+        </div>
+    </footer>
+</body>
+
+</html>
