@@ -10,7 +10,11 @@
 
 <body>
     <header>
-        <h1>выбор авто </h1>
+        <img src="../assets/copart.jpg" width="200" height="150" alt="лого">
+        <br>
+        <a href="./reg.html"><b>регистрация</b></a>
+        <a href="./autoriz.html"><b>авторизация</b></a>
+        <h1>выбор авто</h1>
     </header>
     <form action="https://fom.in.ua/echo">
         <h3>тип кузова</h3>
@@ -27,12 +31,12 @@
         <hr>
         <div>
             <label for="carbrand">марка авто:</label>
-            <input type="search" id="carbrand" name="carbrand" placeholder=" bmw x5"><br>
+            <input type="search" id="carbrand" name="carbrand" placeholder=" bmw x5" required><br>
         </div>
         <hr>
         <div>
             <label for="country">cтрана производитель</label><br>
-            <input type="text" id="country" name="country"><br>
+            <input type="text" id="country" name="country" required><br>
         </div>
         <div>
             <label for="price">цена в грн от 0-5 000 000</label>
@@ -41,9 +45,9 @@
         <hr>
         <div>
             <label for="bdaymonth">год выпуска с:</label>
-            <input type="month" id="bdaymonth" name="car year from">
+            <input type="month" id="bdaymonth" name="car year from" required>
             <label for="bdaymonth2">год выпуска по:</label>
-            <input type="month" id="bdaymonth2" name="car year to"><br>
+            <input type="month" id="bdaymonth2" name="car year to" required><br>
         </div>
         <h3>состояние</h3>
         <div>
