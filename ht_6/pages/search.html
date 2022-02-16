@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search</title>
+</head>
+
+<body>
+    <header>
+        <a href="./reg.html"><b>регистрация</b></a>
+        <a href="./autoriz.html"><b>авторизация</b></a>
+        <a href="../index.html"><b>репродукции мировых шедевров живописи</b></a>
+        <h1>выбор картины</h1>
+    </header>
+    <form action="https://fom.in.ua/echo">
+        <h3>Жанр живописи</h3>
+        <div>
+            <input type="radio" id="impr" name="style" value="Импрессионизм">
+            <label for="impr">Импрессионизм</label><br>
+            <input type="radio" id="land" name="style" value="Пейзаж">
+            <label for="land">Пейзаж</label><br>
+            <input type="radio" id="exp" name="style" value="Экспрессионизм">
+            <label for="exp">Экспрессионизм</label><br>
+
+        </div>
+        <hr>
+        <div>
+            <label for="painter">Художник</label>
+            <input type="search" id="painter" name="painter" placeholder="Клод Моне" required><br>
+        </div>
+        <hr>
+        <div>
+            <label for="country">Родина художника</label><br>
+            <input type="text" id="country" name="country" required><br>
+        </div>
+        <div>
+            <label for="price">цена в грн от 0-1000 000</label>
+            <input type="range" id="price" name="vol" min="0" max="1000000"><br>
+        </div>
+        <hr>
+        <div>
+            <label for="bdaymonth">год написания картины с:</label>
+            <input type="month" id="bdaymonth" name="year from" required>
+            <label for="bdaymonth2">год написания картины по:</label>
+            <input type="month" id="bdaymonth2" name="year to" required><br>
+        </div>
+
+        <h3>техника написания картины</h3>
+        <div>
+            <input type="checkbox" id="vehicle6" name="texnic1" value="масло">
+            <label for="vehicle6"> масло </label><br>
+            <input type="checkbox" id="vehicle7" name="texnic2" value="графика">
+            <label for="vehicle7"> графика</label><br>
+            <input type="checkbox" id="vehicle8" name="texnic3" value="акварель">
+            <label for="vehicle8"> акварель</label><br>
+        </div>
+
+        <hr>
+        <div>
+            <input type="submit" value="search">
+            <input type="reset" value="reset">
+        </div>
+    </form>
+    <footer>
+        <div>
+            <p>copyright lozovoy oleksii</p>
+        </div>
+    </footer>
+</body>
+
+</html>
