@@ -26,14 +26,13 @@ body {
 }
 
 header {
-    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
 }
 
 header nav {
-    padding: 80px 0;
+padding: 80px 0;
 }
 
 header nav ul {
@@ -52,7 +51,6 @@ header nav ul li a {
     font-weight: 500;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-
 }
 
 header nav ul li .active a {
@@ -60,7 +58,6 @@ header nav ul li .active a {
 }
 
 .promo {
-    margin-top: 175px;
     padding: 140px 0;
 }
 
@@ -84,7 +81,6 @@ header nav ul li .active a {
     color: #FFFFFF;
     text-decoration: none;
     text-transform: uppercase;
-
 }
 
 .about {
@@ -164,23 +160,9 @@ header nav ul li .active a {
     margin: 50px auto;
 }
 
-.works .video {
-    position: relative;
-}
-
-.works .video .video-bg {
-    width: 100%;
-}
-
-.works .video button {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    margin-top: -50px;
-    margin-left: -50px;
-    left: 50%;
-    top: 50%;
-    border-radius: 50%;
+.works video {
+    width: 1110px;
+    height: 600px;
 }
 
 footer {
